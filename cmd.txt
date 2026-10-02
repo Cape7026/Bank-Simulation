@@ -1,1 +1,0 @@
-g++ Bank.cpp AccountHandling.cpp Tools.cpp -o Bank.exe && Bank.exe
