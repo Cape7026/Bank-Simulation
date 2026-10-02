@@ -1,0 +1,42 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Bank",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "-std=c++23",
+                "Main.cpp",
+                "AccountHandling.cpp",
+                "Tools.cpp",
+
+
+                /* "-IC:/Program Files/Cpp Libraries/SFML-3.0.2/include",
+                "-LC:/Program Files/Cpp Libraries/SFML-3.0.2/lib",
+                "-LC:/Program Files/Cpp Libraries/ThorVG/lib",
+                "-IC:/Program Files/Cpp Libraries/ThorVG/include",
+
+                "-ldwmapi",
+                "-lsfml-graphics",
+                "-lsfml-window",
+                "-lsfml-system",
+                "-lsfml-audio",
+                "-lthorvg-1", */
+
+                "-o",
+                "bin/Bank.exe",
+
+                
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
